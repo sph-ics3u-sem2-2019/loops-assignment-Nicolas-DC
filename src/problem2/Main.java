@@ -13,21 +13,21 @@ public class Main {
 		int x = in.nextInt() ; 
 		
 		int w = 0 ;
-	if ( y>x ) {
+	/*if ( y>x ) {
 		
 		for ( int t=y; t >= x; t-- ) {
 			w = y - t;
 		 System.out.println( w );
 		}
 	}
-	 else {
+	  else {    */
 		
 		for ( int z = y; z <= x; z++ ) {
 			w= w + z ; 
 			
 			 } 
 		System.out.println( w ) ; 
-	}
+	// }
 	}
 
 }
