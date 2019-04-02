@@ -8,10 +8,11 @@ public class Main {
 		
 		
 		System.out.println(" Give a word ");
-		int word = in.nextInt() ; 
+		String word = in.nextLine() ; 
+		
+		for (int y=0; y< word.length(); y++ ) { 	
+				System.out.println(word.charAt(y)); }
+		
 
-		int y = word.length ; 
-	}gyugfghjudtydtrsres
-	
-
+	}
 }
