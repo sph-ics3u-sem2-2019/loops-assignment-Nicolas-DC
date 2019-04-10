@@ -16,7 +16,7 @@ public class Main {
 		 * hZebart
 		 */
 		Scanner in=new Scanner(System.in);
-
+		in.nextline() ; 
 	}
 
 }
