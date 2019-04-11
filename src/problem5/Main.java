@@ -24,9 +24,9 @@ public class Main {
 			}   
 			else if (lower==true) {
 				letter=Character.toUpperCase(letter) ;
-				System.out.print (letter);	
+				System.out.print (letter) ;	
 			}
-			else { System.out.print(letter); }
+			else { System.out.print(letter) ; }
 			
 			
 		}   
